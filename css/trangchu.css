@@ -696,6 +696,7 @@ button a:hover {
   min-height: 200px;
 }
 
+
 @media (min-width : 376px) and (max-width: 740px) {
   .wrapper {
     grid-template-areas:
@@ -1265,3 +1266,194 @@ button a:hover {
     margin-bottom: 20px;
   }
 }
+/* @media (min-width : 376px) and (max-width: 740px) {
+  .wrapper {
+    grid-template-areas:
+      "header1 header1 header1"
+      "header header header"
+      "menu menu menu"
+      "content content  content"
+      "footer footer footer";
+  }
+  .header {
+    width: 100%;
+    height: 205px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: row;
+  }
+  .icon {
+    margin-top: 190px;
+    margin-left: 170px;
+    position: absolute;
+  }
+  input[type="text"] {
+    font-size: 10px;
+  }
+  .menu-1 {
+    margin-top: -50px;
+    margin-left: -10px;
+    display: flex;
+    float: left;
+    line-height: 25px;
+  }
+  .menu-1 .shoes {
+    margin-left: -52px;
+  }
+
+  
+  .search-container {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -60px;
+    margin-bottom: 20px;
+  }
+  .menu-1 ul {
+    margin-top: 70px;
+  }
+  .content-img {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -240px;
+  }
+  .footer hr {
+    width: 480px;
+    margin-left: -50px;
+  }
+  .hr-footer {
+    width: 480px;
+  }
+  .footer-content input {
+    display: none;
+  }
+  .footer-content {
+    text-align: center;
+  }
+  .cart-1 {
+    margin-top: -35px;
+    margin-left: -50px;
+  }
+  .favorite-1 {
+    margin-top: -35px;
+    margin-left: -100px;
+  }
+  .cart-shopping {
+    margin-left: -370px;
+    margin-top: 20px;
+  }
+  .menu-con {
+    margin-left: 20px;
+  }
+
+  .o1 {
+    margin-left: 50px;
+  }
+}
+@media(min-width: 1024px) and (max-width: 1366px)  {
+  .wrapper {
+    grid-template-areas:
+      "header1 header1 header1"
+      "header header header"
+      "menu menu menu"
+      "content content  content"
+      "footer footer footer";
+  }
+  .header{
+    padding-bottom: 120px;
+  }
+  .logo-owen{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 20px;
+  }
+  .icon{
+    margin-left: 280px;
+    position: absolute;
+   margin-top: 90px;
+  }
+  .menu-1{
+    margin-left: 100px;
+    position: absolute;
+    font-size: 10px;
+    line-height: 25px;
+  }
+  .content-img{
+    font-size: 15px;
+    margin-left: 350px;
+  }
+  .article1{
+    width: 33..33%;
+    padding: 50px;
+
+  }
+  .o5-content{
+    margin-left: 0px;
+   width: 100%;}
+   .email{
+    margin-left:  -300px;
+   }
+   #singin{
+    margin-left: 20px;
+   }
+}
+@media(min-width: 740px) and (max-width: 1023px)  {
+  .wrapper {
+    grid-template-areas:
+      "header1 header1 header1"
+      "header header header"
+      "menu menu menu"
+      "content content  content"
+      "footer footer footer";
+  }
+  .header{
+    padding-bottom: 120px;
+  }
+  .logo-owen{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 20px;
+  }
+  .menu-1{
+    margin-left: 100px;
+    position: absolute;
+    font-size: 10px;
+    line-height: 25px;
+  }
+  .icon{
+    margin-left: 130px;
+    position: absolute;
+   margin-top: 90px;
+  }
+  .content-img{
+    font-size: 15px;
+    margin-left: 200px;
+  }
+  .content{
+    margin-top: -200px;
+  }
+  .o1{
+    padding-left: 10px;
+    margin-left: 250px;
+  }
+  .o3-content{
+    margin-left: 450px;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .footer-content input{
+    margin-left: -1000px;
+  }
+  #singin{
+    margin-left: 650px;
+    padding-top: 50px;
+  }
+  input{
+    float: right;
+    margin-right: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+} */
